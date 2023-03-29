@@ -24,7 +24,7 @@ def draw_shadows(surface, obstacles: list, view_coord: list or tuple, debug=Fals
     :raises ValueError: If the length of coordinates per polygon is less than two
     """
 
-    screen_width_, screen_height_ = 800, 600
+    screen_width_, screen_height_ = pygame.display.get_window_size()
 
     def line_intersection(p1, p2, q1, q2):
         det_ = (p2[0] - p1[0]) * (q2[1] - q1[1]) - (p2[1] - p1[1]) * (q2[0] - q1[0])
