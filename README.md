@@ -1,4 +1,4 @@
-# 2D-Birds-eye-view-shadow-render-for-Pygame
+# 2D-shadow-render-for-Pygame
 A simple one function way to draw shadows in pygame
 
 The only function you need is draw_shadows, documentation is in the docstring of draw_shadows but i'll provide some here.
